@@ -1,7 +1,7 @@
 # sketch2code_by_dhanushrajsr
-UNDER DEVELOPMENT
-This AI work on text detection
-Whenever it detects the text it writes it own html,css and php backend code
+##UNDER DEVELOPMENT##
+This AI work on text detection,
+Whenever it detects the text it writes it own html,css and php backend code.
 languages used:
   1)python
 requirements:
@@ -15,8 +15,8 @@ requirements:
   8)cv2
   9)xamp server with tomcat and mysql
   10)and needed to intall ocr exe from web
-  and have to set ocr exe path
-  phpcodes and css are my userdefined modules these are merged in text detection.py for functionality
+  and have to set ocr exe path.
+  phpcodes and css are my userdefined modules these are merged in text detection.py for functionality.
   #shutil
   shutil is used to move the files to result folder and also to htdocs in xampp folder for full stack functionality
   #random
@@ -35,4 +35,4 @@ requirements:
   cv2 used for image processing
   #xampp
   local webserver for fullstack functionality
-  
+  sorry for grammetical mistakes
