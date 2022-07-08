@@ -1,0 +1,38 @@
+
+        body{
+            background-color: #7d94b5;
+        }
+       
+                .input:hover{
+                    color: #fff;
+                    background-color: #4CAF50;
+                    font-size: 20px;
+                    transition: ease-in-out 1s;
+                    
+                }
+                .inputbox{
+                    border-radius: 8px;
+                    transition: ease-in-out 1s;
+                }
+                 
+                .submit:hover{
+                    color: #fff;
+                    background-color: #4CAF50;
+                    border-radius: 5px;
+                    transition: ease-in-out 1s;
+                }
+                 
+                .submit:hover{
+                    color: #fff;
+                    background-color: #4CAF50;
+                    border-radius: 5px;
+                    transition: ease-in-out 1s;
+                }
+                 
+                .submit:hover{
+                    color: #fff;
+                    background-color: #4CAF50;
+                    border-radius: 5px;
+                    transition: ease-in-out 1s;
+                }
+                  

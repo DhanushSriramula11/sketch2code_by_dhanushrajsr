@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI CREATED SITE</title>
+</head>
+<link rel="stylesheet" href="result.css">
+<body>
+<form action="result.php" method="post">
+<label  class="input">NAME</label>
+    <br>
+    <br>
+    <input type="text" name="NAME" class="inputbox" placeholder="NAME">
+    <br>
+    <br><label  class="input">PASSWORD</label>
+    <br>
+    <br>
+    <input type="PASSWORD" name="PASSWORD" class="inputbox" placeholder="PASSWORD">
+    <br>
+    <br>
+        <br>
+        
+        <input type="submit" value="SUBMIT" class="submit">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>

@@ -2,7 +2,6 @@ import phpcodes as x
 import css
 from cgitb import text
 import os
-from docx import Document
 import cv2
 from pytesseract import pytesseract
 from pytesseract import Output
@@ -36,7 +35,7 @@ html = """
 <!DOCTYPE html>
 <html>
 <head>
-<title>MY FIRST SITE</title>
+<title>AI CREATED SITE</title>
 </head>
 <link rel="stylesheet" href="result.css">
 <body>
@@ -64,17 +63,50 @@ html = """
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </form>
 </body>
 </html>
-
 """
 with open('html.txt','w') as f:
     f.write(html)
 #AI LOGIC
 with open('html.txt','r') as f:
     content = f.read()
-# with open('html.txt','w') as f: 
+# with open('html.txt','w') as f:
      
 for i in l:
     with open('html.txt','r') as f:
@@ -114,6 +146,7 @@ for i in l:
     <br>"""
         with open('html.txt','w') as f:
             f.write(content[:160]+text+content[160:])
+#AGE
     elif('AGE' in i or 'Age' in i or 'age' in i):
         print('AGE1')
         text="""<label  class="input">AGE</label>
@@ -124,6 +157,7 @@ for i in l:
     <br>"""
         with open('html.txt','w') as f:
             f.write(content[:160]+text+content[160:])
+#PHONE
     elif('PHONE' in i or 'Phone' in i or 'phone' in i or 'number' in i or 'Number' in i or 'NUMBER' in i or 'mobile' in i or 'Mobile' in i or 'MOBILE' in i):   
         print('PHONE1')
         text="""<label  class="input">PHONE</label>
@@ -134,6 +168,7 @@ for i in l:
     <br>"""
         with open('html.txt','w') as f:
             f.write(content[:160]+text+content[160:])
+#DATE
     elif('date' in i or 'DATE' in i  or 'Date' in i):
         print('DATE1')
         text="""<label  class="input">DATE</label>
@@ -161,17 +196,14 @@ with open('html.txt','r') as f:
 with open('result.html','w') as f:
     f.write(content)
 #changing file directory
-
-
 import shutil
 import os
- 
 # path to source directory
 src_dir = r'C:\Users\dhanu\Videos\sketch2code\result.html'
- 
+
 # path to destination directory
 dest_dir = r'C:\xampp\htdocs\text2code'
- 
+
 # getting all the files in the source directory
 shutil.copy(src_dir, dest_dir)
 #removing file after copy
@@ -181,9 +213,9 @@ dest_dir=r'C:\Users\dhanu\Videos\sketch2code\RESULT'
 #coping using shutil
 shutil.copy(src_dir, dest_dir)
 #removing file after copy
-os.remove(r'C:\Users\dhanu\Videos\sketch2code\result.html')
+# os.remove(r'C:\Users\dhanu\Videos\sketch2code\result.html')
 # os.remove(r'C:\Users\dhanu\Videos\sketch2code\php.txt')
 # os.remove(r'C:\Users\dhanu\Videos\sketch2code\css.txt')
-os.remove(r'C:\Users\dhanu\Videos\sketch2code\html.txt')
+# os.remove(r'C:\Users\dhanu\Videos\sketch2code\html.txt')
 css.csscodes(l)
 x.phpcode(l)
